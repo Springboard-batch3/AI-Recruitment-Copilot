@@ -1,0 +1,126 @@
+{
+  "ground_truth_version": "1.0",
+  "fixture_id": "P1E2-DEV-DOCX-02",
+  "split": "development",
+  "identity": {
+    "full_name": {
+      "value": "Clara Shaw",
+      "normalized_value": "CLARA SHAW",
+      "evidence_keys": ["EVD_NAME"],
+      "requirement": "REQUIRED"
+    },
+    "emails": [
+      {
+        "value": "clara.shaw@example.org",
+        "normalized_value": "clara.shaw@example.org",
+        "evidence_keys": ["EVD_EMAIL"],
+        "requirement": "REQUIRED"
+      }
+    ],
+    "phone_numbers": [
+      {
+        "value": "+1 202-555-0129",
+        "normalized_value": "+1 202-555-0129",
+        "evidence_keys": ["EVD_PHONE"],
+        "requirement": "REQUIRED"
+      }
+    ],
+    "location": {
+      "value": "San Francisco, CA",
+      "normalized_value": "SAN FRANCISCO, CA",
+      "evidence_keys": ["EVD_LOCATION"],
+      "requirement": "OPTIONAL"
+    },
+    "portfolio": {
+      "value": "https://example.org/clara-shaw",
+      "normalized_value": "https://example.org/clara-shaw",
+      "evidence_keys": ["EVD_PORTFOLIO"],
+      "requirement": "OPTIONAL"
+    }
+  },
+  "professional_profile": {
+    "headline": null,
+    "summary": {
+      "value": "Lead QA Automation Engineer with expertise in Selenium, Playwright, Cypress, and CI/CD quality pipelines.",
+      "normalized_value": "Lead QA Automation Engineer with expertise in Selenium, Playwright, Cypress, and CI/CD quality pipelines.",
+      "evidence_keys": ["EVD_SUMMARY"],
+      "requirement": "OPTIONAL"
+    },
+    "skills": [
+      { "value": "Python", "normalized_value": "PYTHON", "evidence_keys": ["EVD_SKILLS"], "requirement": "REQUIRED" },
+      { "value": "JavaScript", "normalized_value": "JAVASCRIPT", "evidence_keys": ["EVD_SKILLS"], "requirement": "REQUIRED" },
+      { "value": "Selenium", "normalized_value": "SELENIUM", "evidence_keys": ["EVD_SKILLS"], "requirement": "REQUIRED" },
+      { "value": "Playwright", "normalized_value": "PLAYWRIGHT", "evidence_keys": ["EVD_SKILLS"], "requirement": "REQUIRED" },
+      { "value": "Cypress", "normalized_value": "CYPRESS", "evidence_keys": ["EVD_SKILLS"], "requirement": "REQUIRED" },
+      { "value": "CI/CD", "normalized_value": "CI/CD", "evidence_keys": ["EVD_SKILLS"], "requirement": "REQUIRED" },
+      { "value": "PyTest", "normalized_value": "PYTEST", "evidence_keys": ["EVD_SKILLS"], "requirement": "REQUIRED" },
+      { "value": "Docker", "normalized_value": "DOCKER", "evidence_keys": ["EVD_SKILLS"], "requirement": "REQUIRED" }
+    ],
+    "employment": [
+      {
+        "record_id": "EMP_01",
+        "job_title": { "value": "Senior QA Automation Lead", "normalized_value": "SENIOR QA AUTOMATION LEAD", "evidence_keys": ["EVD_EMP1_TITLE"], "requirement": "REQUIRED" },
+        "organization": { "value": "Bay Area FinTech Solutions", "normalized_value": "BAY AREA FINTECH SOLUTIONS", "evidence_keys": ["EVD_EMP1_ORG"], "requirement": "REQUIRED" },
+        "start_date": { "value": "2021", "normalized_value": "2021", "evidence_keys": ["EVD_EMP1_DATES"], "requirement": "REQUIRED" },
+        "end_date": { "value": "Present", "normalized_value": "PRESENT", "evidence_keys": ["EVD_EMP1_DATES"], "requirement": "REQUIRED" },
+        "descriptions": [
+          { "value": "Architected end-to-end regression test suite reducing regression turnaround from 4 days to 3 hours.", "evidence_keys": ["EVD_EMP1_DESC"], "requirement": "OPTIONAL" }
+        ]
+      },
+      {
+        "record_id": "EMP_02",
+        "job_title": { "value": "QA Automation Engineer", "normalized_value": "QA AUTOMATION ENGINEER", "evidence_keys": ["EVD_EMP2_TITLE"], "requirement": "REQUIRED" },
+        "organization": { "value": "Pacific Software Testing", "normalized_value": "PACIFIC SOFTWARE TESTING", "evidence_keys": ["EVD_EMP2_ORG"], "requirement": "REQUIRED" },
+        "start_date": { "value": "2018", "normalized_value": "2018", "evidence_keys": ["EVD_EMP2_DATES"], "requirement": "REQUIRED" },
+        "end_date": { "value": "2021", "normalized_value": "2021", "evidence_keys": ["EVD_EMP2_DATES"], "requirement": "REQUIRED" },
+        "descriptions": [
+          { "value": "Implemented Cypress and Playwright pipelines for 14 web services.", "evidence_keys": ["EVD_EMP2_DESC"], "requirement": "OPTIONAL" }
+        ]
+      }
+    ],
+    "education": [
+      {
+        "record_id": "EDU_01",
+        "institution": { "value": "San Jose State University", "normalized_value": "SAN JOSE STATE UNIVERSITY", "evidence_keys": ["EVD_EDU1"], "requirement": "REQUIRED" },
+        "degree": { "value": "Bachelor of Science", "normalized_value": "BACHELOR OF SCIENCE", "evidence_keys": ["EVD_EDU1"], "requirement": "REQUIRED" },
+        "field_of_study": { "value": "Software Engineering", "normalized_value": "SOFTWARE ENGINEERING", "evidence_keys": ["EVD_EDU1"], "requirement": "OPTIONAL" },
+        "start_date": { "value": "2014", "normalized_value": "2014", "evidence_keys": ["EVD_EDU1"], "requirement": "OPTIONAL" },
+        "end_date": { "value": "2018", "normalized_value": "2018", "evidence_keys": ["EVD_EDU1"], "requirement": "OPTIONAL" }
+      }
+    ],
+    "projects": [],
+    "certifications": [
+      {
+        "record_id": "CERT_01",
+        "name": { "value": "ISTQB Certified Tester Foundation Level", "evidence_keys": ["EVD_CERT1"], "requirement": "REQUIRED" },
+        "issuer": { "value": "ISTQB", "evidence_keys": ["EVD_CERT1"], "requirement": "REQUIRED" },
+        "issued_date": { "value": "2019", "evidence_keys": ["EVD_CERT1"], "requirement": "OPTIONAL" },
+        "credential_id": null
+      }
+    ],
+    "languages": [
+      { "record_id": "LANG_01", "language": { "value": "English", "evidence_keys": ["EVD_LANG"], "requirement": "REQUIRED" }, "proficiency": { "value": "Native", "evidence_keys": ["EVD_LANG"], "requirement": "OPTIONAL" } },
+      { "record_id": "LANG_02", "language": { "value": "Mandarin", "evidence_keys": ["EVD_LANG"], "requirement": "REQUIRED" }, "proficiency": { "value": "Conversational", "evidence_keys": ["EVD_LANG"], "requirement": "OPTIONAL" } }
+    ]
+  },
+  "evidence_expectations": [
+    { "evidence_key": "EVD_NAME", "source_phrase": "CLARA SHAW", "target_field_or_record": "identity.full_name", "requirement": "REQUIRED" },
+    { "evidence_key": "EVD_EMAIL", "source_phrase": "clara.shaw@example.org", "target_field_or_record": "identity.emails", "requirement": "REQUIRED" },
+    { "evidence_key": "EVD_PHONE", "source_phrase": "+1 202-555-0129", "target_field_or_record": "identity.phone_numbers", "requirement": "REQUIRED" },
+    { "evidence_key": "EVD_LOCATION", "source_phrase": "San Francisco, CA", "target_field_or_record": "identity.location", "requirement": "OPTIONAL" },
+    { "evidence_key": "EVD_PORTFOLIO", "source_phrase": "https://example.org/clara-shaw", "target_field_or_record": "identity.portfolio", "requirement": "OPTIONAL" },
+    { "evidence_key": "EVD_SUMMARY", "source_phrase": "Lead QA Automation Engineer with expertise in Selenium", "target_field_or_record": "professional_profile.summary", "requirement": "OPTIONAL" },
+    { "evidence_key": "EVD_SKILLS", "source_phrase": "Python, JavaScript, Selenium, Playwright, Cypress, CI/CD, PyTest, Docker", "target_field_or_record": "professional_profile.skills", "requirement": "REQUIRED" },
+    { "evidence_key": "EVD_EMP1_TITLE", "source_phrase": "Senior QA Automation Lead - Bay Area FinTech Solutions", "target_field_or_record": "professional_profile.employment[0].job_title", "requirement": "REQUIRED" },
+    { "evidence_key": "EVD_EMP1_ORG", "source_phrase": "Bay Area FinTech Solutions", "target_field_or_record": "professional_profile.employment[0].organization", "requirement": "REQUIRED" },
+    { "evidence_key": "EVD_EMP1_DATES", "source_phrase": "2021 - Present", "target_field_or_record": "professional_profile.employment[0].start_date", "requirement": "REQUIRED" },
+    { "evidence_key": "EVD_EMP1_DESC", "source_phrase": "Architected end-to-end regression test suite", "target_field_or_record": "professional_profile.employment[0].descriptions", "requirement": "OPTIONAL" },
+    { "evidence_key": "EVD_EMP2_TITLE", "source_phrase": "QA Automation Engineer - Pacific Software Testing", "target_field_or_record": "professional_profile.employment[1].job_title", "requirement": "REQUIRED" },
+    { "evidence_key": "EVD_EMP2_ORG", "source_phrase": "Pacific Software Testing", "target_field_or_record": "professional_profile.employment[1].organization", "requirement": "REQUIRED" },
+    { "evidence_key": "EVD_EMP2_DATES", "source_phrase": "2018 - 2021", "target_field_or_record": "professional_profile.employment[1].start_date", "requirement": "REQUIRED" },
+    { "evidence_key": "EVD_EMP2_DESC", "source_phrase": "Implemented Cypress and Playwright pipelines", "target_field_or_record": "professional_profile.employment[1].descriptions", "requirement": "OPTIONAL" },
+    { "evidence_key": "EVD_EDU1", "source_phrase": "Bachelor of Science in Software Engineering - San Jose State University - 2014-2018", "target_field_or_record": "professional_profile.education[0]", "requirement": "REQUIRED" },
+    { "evidence_key": "EVD_CERT1", "source_phrase": "ISTQB Certified Tester Foundation Level - ISTQB - 2019", "target_field_or_record": "professional_profile.certifications[0]", "requirement": "REQUIRED" },
+    { "evidence_key": "EVD_LANG", "source_phrase": "English: Native | Mandarin: Conversational", "target_field_or_record": "professional_profile.languages", "requirement": "REQUIRED" }
+  ]
+}

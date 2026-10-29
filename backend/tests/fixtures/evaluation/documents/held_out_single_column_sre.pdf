@@ -1,0 +1,54 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [ 3 0 R ] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 5 0 R >> >> /Contents 4 0 R >>
+endobj
+4 0 obj
+<< /Length 1378 >>
+stream
+BT
+/F1 12 Tf
+1 0 0 1 50 720 Tm (MARCUS VANCE) Tj
+1 0 0 1 50 700 Tm (marcus.vance@example.org | +1 202-555-0143 | Austin, TX | https://example.org/marcus-vance) Tj
+1 0 0 1 50 680 Tm (Site Reliability Engineer) Tj
+1 0 0 1 50 660 Tm (PROFESSIONAL SUMMARY) Tj
+1 0 0 1 50 640 Tm (Site reliability engineer specializing in multi-region observability, Kubernetes reliability, and incident automation.) Tj
+1 0 0 1 50 620 Tm (TECHNICAL SKILLS) Tj
+1 0 0 1 50 600 Tm (Python | Terraform | Kubernetes | Prometheus | Grafana | AWS | CI/CD | Linux) Tj
+1 0 0 1 50 580 Tm (EXPERIENCE) Tj
+1 0 0 1 50 560 Tm (Senior SRE - Zenith Observability Labs) Tj
+1 0 0 1 50 540 Tm (October 2022 - Present) Tj
+1 0 0 1 50 520 Tm (- Implemented automated SLO alerting reducing false paging noise by 45%.) Tj
+1 0 0 1 50 500 Tm (SRE - CloudPinnacle Systems) Tj
+1 0 0 1 50 480 Tm (June 2020 - September 2022) Tj
+1 0 0 1 50 460 Tm (- Managed Terraform IaC deployments across 12 production clusters.) Tj
+1 0 0 1 50 440 Tm (EDUCATION) Tj
+1 0 0 1 50 420 Tm (Bachelor of Science in Computer Engineering - Lone Star State University - 2016-2020) Tj
+1 0 0 1 50 400 Tm (CERTIFICATIONS) Tj
+1 0 0 1 50 380 Tm (AWS Certified DevOps Engineer - Professional | Amazon Web Services | 2023 | DOP-8812) Tj
+1 0 0 1 50 360 Tm (LANGUAGES) Tj
+1 0 0 1 50 340 Tm (English - Native proficiency | Spanish - Professional proficiency) Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000117 00000 n 
+0000000243 00000 n 
+0000001673 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+1770
+%%EOF

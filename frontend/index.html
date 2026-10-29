@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI-Driven Smart Hiring Platform</title>
+    <script>
+      (function() {
+        try {
+          var host = (window.location.hostname || "").toLowerCase();
+          var path = (window.location.pathname || "").toLowerCase();
+          if (host.startsWith("candidate.") || path.startsWith("/candidate")) {
+            document.title = "Candidate Portal | Smart Hiring";
+          } else if (host.startsWith("admin.")) {
+            document.title = "Admin Workspace | Smart Hiring";
+          } else if (host.startsWith("recruiter.")) {
+            document.title = "Recruiter Workspace | Smart Hiring";
+          } else {
+            document.title = "Smart Hiring — Recruiter & Staff Portal";
+          }
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

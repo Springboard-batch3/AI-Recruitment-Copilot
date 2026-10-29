@@ -1,0 +1,118 @@
+{
+  "ground_truth_version": "1.0",
+  "fixture_id": "P1E2-HELD-DOCX-01",
+  "split": "held_out",
+  "identity": {
+    "full_name": {
+      "value": "David Chen",
+      "normalized_value": "DAVID CHEN",
+      "evidence_keys": ["EVD_NAME"],
+      "requirement": "REQUIRED"
+    },
+    "emails": [
+      {
+        "value": "david.chen@example.org",
+        "normalized_value": "david.chen@example.org",
+        "evidence_keys": ["EVD_EMAIL"],
+        "requirement": "REQUIRED"
+      }
+    ],
+    "phone_numbers": [
+      {
+        "value": "+1 202-555-0165",
+        "normalized_value": "+1 202-555-0165",
+        "evidence_keys": ["EVD_PHONE"],
+        "requirement": "REQUIRED"
+      }
+    ],
+    "location": {
+      "value": "New York, NY",
+      "normalized_value": "NEW YORK, NY",
+      "evidence_keys": ["EVD_LOCATION"],
+      "requirement": "OPTIONAL"
+    },
+    "portfolio": {
+      "value": "https://example.org/david-chen",
+      "normalized_value": "https://example.org/david-chen",
+      "evidence_keys": ["EVD_PORTFOLIO"],
+      "requirement": "OPTIONAL"
+    }
+  },
+  "professional_profile": {
+    "headline": {
+      "value": "Full Stack Developer",
+      "normalized_value": "FULL STACK DEVELOPER",
+      "evidence_keys": ["EVD_HEADLINE"],
+      "requirement": "OPTIONAL"
+    },
+    "summary": {
+      "value": "Full stack software engineer with focus on React web applications and Node.js microservices.",
+      "normalized_value": "Full stack software engineer with focus on React web applications and Node.js microservices.",
+      "evidence_keys": ["EVD_SUMMARY"],
+      "requirement": "OPTIONAL"
+    },
+    "skills": [
+      { "value": "JavaScript", "normalized_value": "JAVASCRIPT", "evidence_keys": ["EVD_SKILLS"], "requirement": "REQUIRED" },
+      { "value": "TypeScript", "normalized_value": "TYPESCRIPT", "evidence_keys": ["EVD_SKILLS"], "requirement": "REQUIRED" },
+      { "value": "React", "normalized_value": "REACT", "evidence_keys": ["EVD_SKILLS"], "requirement": "REQUIRED" },
+      { "value": "Node.js", "normalized_value": "NODE.JS", "evidence_keys": ["EVD_SKILLS"], "requirement": "REQUIRED" },
+      { "value": "Express", "normalized_value": "EXPRESS", "evidence_keys": ["EVD_SKILLS"], "requirement": "REQUIRED" },
+      { "value": "PostgreSQL", "normalized_value": "POSTGRESQL", "evidence_keys": ["EVD_SKILLS"], "requirement": "REQUIRED" },
+      { "value": "Docker", "normalized_value": "DOCKER", "evidence_keys": ["EVD_SKILLS"], "requirement": "REQUIRED" }
+    ],
+    "employment": [
+      {
+        "record_id": "EMP_01",
+        "job_title": { "value": "Full Stack Engineer", "normalized_value": "FULL STACK ENGINEER", "evidence_keys": ["EVD_EMP1_TITLE"], "requirement": "REQUIRED" },
+        "organization": { "value": "Hudson River Technologies", "normalized_value": "HUDSON RIVER TECHNOLOGIES", "evidence_keys": ["EVD_EMP1_ORG"], "requirement": "REQUIRED" },
+        "start_date": { "value": "2022", "normalized_value": "2022", "evidence_keys": ["EVD_EMP1_DATES"], "requirement": "REQUIRED" },
+        "end_date": { "value": "Present", "normalized_value": "PRESENT", "evidence_keys": ["EVD_EMP1_DATES"], "requirement": "REQUIRED" },
+        "descriptions": [
+          { "value": "Developed full-stack transaction monitoring portal with React and Node.js.", "evidence_keys": ["EVD_EMP1_DESC"], "requirement": "OPTIONAL" }
+        ]
+      },
+      {
+        "record_id": "EMP_02",
+        "job_title": { "value": "Junior Web Developer", "normalized_value": "JUNIOR WEB DEVELOPER", "evidence_keys": ["EVD_EMP2_TITLE"], "requirement": "REQUIRED" },
+        "organization": { "value": "Brooklyn App Studio", "normalized_value": "BROOKLYN APP STUDIO", "evidence_keys": ["EVD_EMP2_ORG"], "requirement": "REQUIRED" },
+        "start_date": { "value": "2020", "normalized_value": "2020", "evidence_keys": ["EVD_EMP2_DATES"], "requirement": "REQUIRED" },
+        "end_date": { "value": "2022", "normalized_value": "2022", "evidence_keys": ["EVD_EMP2_DATES"], "requirement": "REQUIRED" },
+        "descriptions": [
+          { "value": "Built customer portals and backend REST endpoints in Express and PostgreSQL.", "evidence_keys": ["EVD_EMP2_DESC"], "requirement": "OPTIONAL" }
+        ]
+      }
+    ],
+    "education": [
+      {
+        "record_id": "EDU_01",
+        "institution": { "value": "Empire State College", "normalized_value": "EMPIRE STATE COLLEGE", "evidence_keys": ["EVD_EDU1"], "requirement": "REQUIRED" },
+        "degree": { "value": "Bachelor of Arts", "normalized_value": "BACHELOR OF ARTS", "evidence_keys": ["EVD_EDU1"], "requirement": "REQUIRED" },
+        "field_of_study": { "value": "Computer Science", "normalized_value": "COMPUTER SCIENCE", "evidence_keys": ["EVD_EDU1"], "requirement": "OPTIONAL" },
+        "start_date": { "value": "2016", "normalized_value": "2016", "evidence_keys": ["EVD_EDU1"], "requirement": "OPTIONAL" },
+        "end_date": { "value": "2020", "normalized_value": "2020", "evidence_keys": ["EVD_EDU1"], "requirement": "OPTIONAL" }
+      }
+    ],
+    "projects": [],
+    "certifications": [],
+    "languages": []
+  },
+  "evidence_expectations": [
+    { "evidence_key": "EVD_NAME", "source_phrase": "DAVID CHEN", "target_field_or_record": "identity.full_name", "requirement": "REQUIRED" },
+    { "evidence_key": "EVD_EMAIL", "source_phrase": "david.chen@example.org", "target_field_or_record": "identity.emails", "requirement": "REQUIRED" },
+    { "evidence_key": "EVD_PHONE", "source_phrase": "+1 202-555-0165", "target_field_or_record": "identity.phone_numbers", "requirement": "REQUIRED" },
+    { "evidence_key": "EVD_LOCATION", "source_phrase": "New York, NY", "target_field_or_record": "identity.location", "requirement": "OPTIONAL" },
+    { "evidence_key": "EVD_PORTFOLIO", "source_phrase": "https://example.org/david-chen", "target_field_or_record": "identity.portfolio", "requirement": "OPTIONAL" },
+    { "evidence_key": "EVD_HEADLINE", "source_phrase": "Full Stack Developer", "target_field_or_record": "professional_profile.headline", "requirement": "OPTIONAL" },
+    { "evidence_key": "EVD_SUMMARY", "source_phrase": "Full stack software engineer with focus on React web applications", "target_field_or_record": "professional_profile.summary", "requirement": "OPTIONAL" },
+    { "evidence_key": "EVD_SKILLS", "source_phrase": "JavaScript | TypeScript | React | Node.js", "target_field_or_record": "professional_profile.skills", "requirement": "REQUIRED" },
+    { "evidence_key": "EVD_EMP1_TITLE", "source_phrase": "Full Stack Engineer - Hudson River Technologies", "target_field_or_record": "professional_profile.employment[0].job_title", "requirement": "REQUIRED" },
+    { "evidence_key": "EVD_EMP1_ORG", "source_phrase": "Hudson River Technologies", "target_field_or_record": "professional_profile.employment[0].organization", "requirement": "REQUIRED" },
+    { "evidence_key": "EVD_EMP1_DATES", "source_phrase": "2022 - Present", "target_field_or_record": "professional_profile.employment[0].start_date", "requirement": "REQUIRED" },
+    { "evidence_key": "EVD_EMP1_DESC", "source_phrase": "Developed full-stack transaction monitoring portal", "target_field_or_record": "professional_profile.employment[0].descriptions", "requirement": "OPTIONAL" },
+    { "evidence_key": "EVD_EMP2_TITLE", "source_phrase": "Junior Web Developer - Brooklyn App Studio", "target_field_or_record": "professional_profile.employment[1].job_title", "requirement": "REQUIRED" },
+    { "evidence_key": "EVD_EMP2_ORG", "source_phrase": "Brooklyn App Studio", "target_field_or_record": "professional_profile.employment[1].organization", "requirement": "REQUIRED" },
+    { "evidence_key": "EVD_EMP2_DATES", "source_phrase": "2020 - 2022", "target_field_or_record": "professional_profile.employment[1].start_date", "requirement": "REQUIRED" },
+    { "evidence_key": "EVD_EMP2_DESC", "source_phrase": "Built customer portals and backend REST endpoints", "target_field_or_record": "professional_profile.employment[1].descriptions", "requirement": "OPTIONAL" },
+    { "evidence_key": "EVD_EDU1", "source_phrase": "Bachelor of Arts in Computer Science - Empire State College", "target_field_or_record": "professional_profile.education[0]", "requirement": "REQUIRED" }
+  ]
+}

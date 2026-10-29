@@ -1,0 +1,13 @@
+.venv/
+.env
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+frontend/node_modules/
+frontend/dist/
+backend/runtime/
+Local_data
+models/
+local_ats_demo/inbox/*
+!local_ats_demo/inbox/.gitkeep

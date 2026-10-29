@@ -1,0 +1,67 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [ 3 0 R 5 0 R ] /Count 2 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 7 0 R >> >> /Contents 4 0 R >>
+endobj
+4 0 obj
+<< /Length 846 >>
+stream
+BT
+/F1 12 Tf
+1 0 0 1 50 720 Tm (ELENA ROSTOVA) Tj
+1 0 0 1 50 700 Tm (elena.rostova@example.org | +1 202-555-0188 | Chicago, IL | https://example.org/elena-rostova) Tj
+1 0 0 1 50 680 Tm (PROFESSIONAL SUMMARY) Tj
+1 0 0 1 50 660 Tm (Enterprise systems architect with 12+ years designing distributed systems, event streams, and cloud platforms.) Tj
+1 0 0 1 50 640 Tm (TECHNICAL SKILLS) Tj
+1 0 0 1 50 620 Tm (Java | Go | Python | Kubernetes | Kafka | AWS | Architecture | Microservices) Tj
+1 0 0 1 50 600 Tm (WORK EXPERIENCE) Tj
+1 0 0 1 50 580 Tm (Principal Architect | Apex Financial Platforms) Tj
+1 0 0 1 50 560 Tm (March 2021 - Present) Tj
+1 0 0 1 50 540 Tm (- Spearheaded event-driven microservices architecture reducing transaction latency by 60%.) Tj
+1 0 0 1 50 520 Tm (- Designed cross-region Kubernetes replication spanning 3 AWS zones.) Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 7 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 618 >>
+stream
+BT
+/F1 12 Tf
+1 0 0 1 50 720 Tm (Lead Systems Engineer | Midwest Cloud Services) Tj
+1 0 0 1 50 700 Tm (January 2017 - February 2021) Tj
+1 0 0 1 50 680 Tm (- Migrated monolithic banking core to containerized services.) Tj
+1 0 0 1 50 660 Tm (EDUCATION) Tj
+1 0 0 1 50 640 Tm (Master of Science in Computer Engineering - University of Illinois - 2015-2017) Tj
+1 0 0 1 50 620 Tm (CERTIFICATIONS) Tj
+1 0 0 1 50 600 Tm (AWS Certified Solutions Architect - Professional | Amazon Web Services | 2023) Tj
+1 0 0 1 50 580 Tm (LANGUAGES) Tj
+1 0 0 1 50 560 Tm (English - Native proficiency | Russian - Professional proficiency) Tj
+ET
+endstream
+endobj
+7 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000123 00000 n 
+0000000249 00000 n 
+0000001146 00000 n 
+0000001272 00000 n 
+0000001941 00000 n 
+trailer
+<< /Size 8 /Root 1 0 R >>
+startxref
+2038
+%%EOF

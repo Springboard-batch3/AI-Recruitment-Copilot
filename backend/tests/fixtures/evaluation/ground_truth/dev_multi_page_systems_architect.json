@@ -1,0 +1,127 @@
+{
+  "ground_truth_version": "1.0",
+  "fixture_id": "P1E2-DEV-PDF-02",
+  "split": "development",
+  "identity": {
+    "full_name": {
+      "value": "Elena Rostova",
+      "normalized_value": "ELENA ROSTOVA",
+      "evidence_keys": ["EVD_NAME"],
+      "requirement": "REQUIRED"
+    },
+    "emails": [
+      {
+        "value": "elena.rostova@example.org",
+        "normalized_value": "elena.rostova@example.org",
+        "evidence_keys": ["EVD_EMAIL"],
+        "requirement": "REQUIRED"
+      }
+    ],
+    "phone_numbers": [
+      {
+        "value": "+1 202-555-0188",
+        "normalized_value": "+1 202-555-0188",
+        "evidence_keys": ["EVD_PHONE"],
+        "requirement": "REQUIRED"
+      }
+    ],
+    "location": {
+      "value": "Chicago, IL",
+      "normalized_value": "CHICAGO, IL",
+      "evidence_keys": ["EVD_LOCATION"],
+      "requirement": "OPTIONAL"
+    },
+    "portfolio": {
+      "value": "https://example.org/elena-rostova",
+      "normalized_value": "https://example.org/elena-rostova",
+      "evidence_keys": ["EVD_PORTFOLIO"],
+      "requirement": "OPTIONAL"
+    }
+  },
+  "professional_profile": {
+    "headline": null,
+    "summary": {
+      "value": "Enterprise systems architect with 12+ years designing distributed systems, event streams, and cloud platforms.",
+      "normalized_value": "Enterprise systems architect with 12+ years designing distributed systems, event streams, and cloud platforms.",
+      "evidence_keys": ["EVD_SUMMARY"],
+      "requirement": "OPTIONAL"
+    },
+    "skills": [
+      { "value": "Java", "normalized_value": "JAVA", "evidence_keys": ["EVD_SKILLS"], "requirement": "REQUIRED" },
+      { "value": "Go", "normalized_value": "GO", "evidence_keys": ["EVD_SKILLS"], "requirement": "REQUIRED" },
+      { "value": "Python", "normalized_value": "PYTHON", "evidence_keys": ["EVD_SKILLS"], "requirement": "REQUIRED" },
+      { "value": "Kubernetes", "normalized_value": "KUBERNETES", "evidence_keys": ["EVD_SKILLS"], "requirement": "REQUIRED" },
+      { "value": "Kafka", "normalized_value": "KAFKA", "evidence_keys": ["EVD_SKILLS"], "requirement": "REQUIRED" },
+      { "value": "AWS", "normalized_value": "AWS", "evidence_keys": ["EVD_SKILLS"], "requirement": "REQUIRED" },
+      { "value": "Architecture", "normalized_value": "ARCHITECTURE", "evidence_keys": ["EVD_SKILLS"], "requirement": "REQUIRED" },
+      { "value": "Microservices", "normalized_value": "MICROSERVICES", "evidence_keys": ["EVD_SKILLS"], "requirement": "REQUIRED" }
+    ],
+    "employment": [
+      {
+        "record_id": "EMP_01",
+        "job_title": { "value": "Principal Architect", "normalized_value": "PRINCIPAL ARCHITECT", "evidence_keys": ["EVD_EMP1_TITLE"], "requirement": "REQUIRED" },
+        "organization": { "value": "Apex Financial Platforms", "normalized_value": "APEX FINANCIAL PLATFORMS", "evidence_keys": ["EVD_EMP1_ORG"], "requirement": "REQUIRED" },
+        "start_date": { "value": "March 2021", "normalized_value": "2021-03", "evidence_keys": ["EVD_EMP1_DATES"], "requirement": "REQUIRED" },
+        "end_date": { "value": "Present", "normalized_value": "PRESENT", "evidence_keys": ["EVD_EMP1_DATES"], "requirement": "REQUIRED" },
+        "descriptions": [
+          { "value": "Spearheaded event-driven microservices architecture reducing transaction latency by 60%.", "evidence_keys": ["EVD_EMP1_DESC"], "requirement": "OPTIONAL" },
+          { "value": "Designed cross-region Kubernetes replication spanning 3 AWS zones.", "evidence_keys": ["EVD_EMP1_DESC"], "requirement": "OPTIONAL" }
+        ]
+      },
+      {
+        "record_id": "EMP_02",
+        "job_title": { "value": "Lead Systems Engineer", "normalized_value": "LEAD SYSTEMS ENGINEER", "evidence_keys": ["EVD_EMP2_TITLE"], "requirement": "REQUIRED" },
+        "organization": { "value": "Midwest Cloud Services", "normalized_value": "MIDWEST CLOUD SERVICES", "evidence_keys": ["EVD_EMP2_ORG"], "requirement": "REQUIRED" },
+        "start_date": { "value": "January 2017", "normalized_value": "2017-01", "evidence_keys": ["EVD_EMP2_DATES"], "requirement": "REQUIRED" },
+        "end_date": { "value": "February 2021", "normalized_value": "2021-02", "evidence_keys": ["EVD_EMP2_DATES"], "requirement": "REQUIRED" },
+        "descriptions": [
+          { "value": "Migrated monolithic banking core to containerized services.", "evidence_keys": ["EVD_EMP2_DESC"], "requirement": "OPTIONAL" }
+        ]
+      }
+    ],
+    "education": [
+      {
+        "record_id": "EDU_01",
+        "institution": { "value": "University of Illinois", "normalized_value": "UNIVERSITY OF ILLINOIS", "evidence_keys": ["EVD_EDU1"], "requirement": "REQUIRED" },
+        "degree": { "value": "Master of Science", "normalized_value": "MASTER OF SCIENCE", "evidence_keys": ["EVD_EDU1"], "requirement": "REQUIRED" },
+        "field_of_study": { "value": "Computer Engineering", "normalized_value": "COMPUTER ENGINEERING", "evidence_keys": ["EVD_EDU1"], "requirement": "OPTIONAL" },
+        "start_date": { "value": "2015", "normalized_value": "2015", "evidence_keys": ["EVD_EDU1"], "requirement": "OPTIONAL" },
+        "end_date": { "value": "2017", "normalized_value": "2017", "evidence_keys": ["EVD_EDU1"], "requirement": "OPTIONAL" }
+      }
+    ],
+    "projects": [],
+    "certifications": [
+      {
+        "record_id": "CERT_01",
+        "name": { "value": "AWS Certified Solutions Architect - Professional", "evidence_keys": ["EVD_CERT1"], "requirement": "REQUIRED" },
+        "issuer": { "value": "Amazon Web Services", "evidence_keys": ["EVD_CERT1"], "requirement": "REQUIRED" },
+        "issued_date": { "value": "2023", "evidence_keys": ["EVD_CERT1"], "requirement": "OPTIONAL" },
+        "credential_id": null
+      }
+    ],
+    "languages": [
+      { "record_id": "LANG_01", "language": { "value": "English", "evidence_keys": ["EVD_LANG"], "requirement": "REQUIRED" }, "proficiency": { "value": "Native", "evidence_keys": ["EVD_LANG"], "requirement": "OPTIONAL" } },
+      { "record_id": "LANG_02", "language": { "value": "Russian", "evidence_keys": ["EVD_LANG"], "requirement": "REQUIRED" }, "proficiency": { "value": "Professional", "evidence_keys": ["EVD_LANG"], "requirement": "OPTIONAL" } }
+    ]
+  },
+  "evidence_expectations": [
+    { "evidence_key": "EVD_NAME", "source_phrase": "ELENA ROSTOVA", "expected_page": 1, "target_field_or_record": "identity.full_name", "requirement": "REQUIRED" },
+    { "evidence_key": "EVD_EMAIL", "source_phrase": "elena.rostova@example.org", "expected_page": 1, "target_field_or_record": "identity.emails", "requirement": "REQUIRED" },
+    { "evidence_key": "EVD_PHONE", "source_phrase": "+1 202-555-0188", "expected_page": 1, "target_field_or_record": "identity.phone_numbers", "requirement": "REQUIRED" },
+    { "evidence_key": "EVD_LOCATION", "source_phrase": "Chicago, IL", "expected_page": 1, "target_field_or_record": "identity.location", "requirement": "OPTIONAL" },
+    { "evidence_key": "EVD_PORTFOLIO", "source_phrase": "https://example.org/elena-rostova", "expected_page": 1, "target_field_or_record": "identity.portfolio", "requirement": "OPTIONAL" },
+    { "evidence_key": "EVD_SUMMARY", "source_phrase": "Enterprise systems architect with 12+ years designing distributed systems", "expected_page": 1, "target_field_or_record": "professional_profile.summary", "requirement": "OPTIONAL" },
+    { "evidence_key": "EVD_SKILLS", "source_phrase": "Java | Go | Python | Kubernetes | Kafka | AWS | Architecture | Microservices", "expected_page": 1, "target_field_or_record": "professional_profile.skills", "requirement": "REQUIRED" },
+    { "evidence_key": "EVD_EMP1_TITLE", "source_phrase": "Principal Architect | Apex Financial Platforms", "expected_page": 1, "target_field_or_record": "professional_profile.employment[0].job_title", "requirement": "REQUIRED" },
+    { "evidence_key": "EVD_EMP1_ORG", "source_phrase": "Apex Financial Platforms", "expected_page": 1, "target_field_or_record": "professional_profile.employment[0].organization", "requirement": "REQUIRED" },
+    { "evidence_key": "EVD_EMP1_DATES", "source_phrase": "March 2021 - Present", "expected_page": 1, "target_field_or_record": "professional_profile.employment[0].start_date", "requirement": "REQUIRED" },
+    { "evidence_key": "EVD_EMP1_DESC", "source_phrase": "Spearheaded event-driven microservices architecture", "expected_page": 1, "target_field_or_record": "professional_profile.employment[0].descriptions", "requirement": "OPTIONAL" },
+    { "evidence_key": "EVD_EMP2_TITLE", "source_phrase": "Lead Systems Engineer | Midwest Cloud Services", "expected_page": 2, "target_field_or_record": "professional_profile.employment[1].job_title", "requirement": "REQUIRED" },
+    { "evidence_key": "EVD_EMP2_ORG", "source_phrase": "Midwest Cloud Services", "expected_page": 2, "target_field_or_record": "professional_profile.employment[1].organization", "requirement": "REQUIRED" },
+    { "evidence_key": "EVD_EMP2_DATES", "source_phrase": "January 2017 - February 2021", "expected_page": 2, "target_field_or_record": "professional_profile.employment[1].start_date", "requirement": "REQUIRED" },
+    { "evidence_key": "EVD_EMP2_DESC", "source_phrase": "Migrated monolithic banking core to containerized services", "expected_page": 2, "target_field_or_record": "professional_profile.employment[1].descriptions", "requirement": "OPTIONAL" },
+    { "evidence_key": "EVD_EDU1", "source_phrase": "Master of Science in Computer Engineering - University of Illinois - 2015-2017", "expected_page": 2, "target_field_or_record": "professional_profile.education[0]", "requirement": "REQUIRED" },
+    { "evidence_key": "EVD_CERT1", "source_phrase": "AWS Certified Solutions Architect - Professional | Amazon Web Services | 2023", "expected_page": 2, "target_field_or_record": "professional_profile.certifications[0]", "requirement": "REQUIRED" },
+    { "evidence_key": "EVD_LANG", "source_phrase": "English - Native proficiency | Russian - Professional proficiency", "expected_page": 2, "target_field_or_record": "professional_profile.languages", "requirement": "REQUIRED" }
+  ]
+}

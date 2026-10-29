@@ -1,0 +1,123 @@
+{
+  "manifest_version": "1.0",
+  "description": "Authoritative frozen evaluation corpus for direct-text resume extraction and profile parsing benchmark.",
+  "fixtures": [
+    {
+      "fixture_id": "P1E2-DOCX-01",
+      "relative_path": "documents/Phase_1E2_Integrity_Table_Reordered_Resume.docx",
+      "sha256": "2737d0a308c43ae5d2ccb8e10bf92b3e4be9f723006732607fb35d89b1b7f23f",
+      "document_type": "docx",
+      "digital_text_required": true,
+      "layout_family": "table_structured",
+      "page_count": 1,
+      "split": "development",
+      "ground_truth_relative_path": "ground_truth/Phase_1E2_Integrity_Table_Reordered_Resume.json",
+      "synthetic_provenance": "Synthetic reordered section table resume with fictional candidate Aarav Mehta.",
+      "coverage_tags": [
+        "docx_tables",
+        "reordered_sections",
+        "multiple_employment",
+        "month_year_dates",
+        "multiple_languages"
+      ],
+      "fixture_version": "1.0"
+    },
+    {
+      "fixture_id": "P1E2-PDF-01",
+      "relative_path": "documents/Phase_1E2_Integrity_Two_Column_Resume.pdf",
+      "sha256": "479109a44eee16c6c044c1893d1134ad1c5964ef1edf951fce0285c95f436800",
+      "document_type": "pdf",
+      "digital_text_required": true,
+      "layout_family": "two_column_sidebar",
+      "page_count": 1,
+      "split": "development",
+      "ground_truth_relative_path": "ground_truth/Phase_1E2_Integrity_Two_Column_Resume.json",
+      "synthetic_provenance": "Synthetic two-column layout resume with fictional candidate Nisha Rao.",
+      "coverage_tags": [
+        "two_column_pdf",
+        "multiple_employment",
+        "multiple_projects",
+        "multiple_languages",
+        "month_year_dates"
+      ],
+      "fixture_version": "1.0"
+    },
+    {
+      "fixture_id": "P1E2-DEV-PDF-02",
+      "relative_path": "documents/dev_multi_page_systems_architect.pdf",
+      "sha256": "134b3bb5b22d4634e60f70849cd4e790cf213ee376eb5962b87be45b263cefd0",
+      "document_type": "pdf",
+      "digital_text_required": true,
+      "layout_family": "multi_page",
+      "page_count": 2,
+      "split": "development",
+      "ground_truth_relative_path": "ground_truth/dev_multi_page_systems_architect.json",
+      "synthetic_provenance": "Synthetic 2-page system architect resume with fictional candidate Elena Rostova.",
+      "coverage_tags": [
+        "multi_page_pdf",
+        "single_column_pdf",
+        "multiple_employment",
+        "year_only_dates",
+        "month_year_dates"
+      ],
+      "fixture_version": "1.0"
+    },
+    {
+      "fixture_id": "P1E2-DEV-DOCX-02",
+      "relative_path": "documents/dev_standard_paragraphs_qa.docx",
+      "sha256": "deaa4f799e1e5446284d6a98aac867d7868dc74347545b33462c8944188b7ca7",
+      "document_type": "docx",
+      "digital_text_required": true,
+      "layout_family": "standard_paragraphs",
+      "page_count": 1,
+      "split": "development",
+      "ground_truth_relative_path": "ground_truth/dev_standard_paragraphs_qa.json",
+      "synthetic_provenance": "Synthetic paragraph DOCX resume with fictional candidate Clara Shaw.",
+      "coverage_tags": [
+        "docx_paragraphs",
+        "multiple_employment",
+        "year_only_dates",
+        "month_year_dates"
+      ],
+      "fixture_version": "1.0"
+    },
+    {
+      "fixture_id": "P1E2-HELD-PDF-01",
+      "relative_path": "documents/held_out_single_column_sre.pdf",
+      "sha256": "9338976287374a219793d85eca5689cfb6fcd40c123dca50831d857feffb0f3b",
+      "document_type": "pdf",
+      "digital_text_required": true,
+      "layout_family": "single_column",
+      "page_count": 1,
+      "split": "held_out",
+      "ground_truth_relative_path": "ground_truth/held_out_single_column_sre.json",
+      "synthetic_provenance": "Synthetic single-column SRE resume with fictional candidate Marcus Vance.",
+      "coverage_tags": [
+        "single_column_pdf",
+        "multiple_employment",
+        "year_only_dates",
+        "month_year_dates"
+      ],
+      "fixture_version": "1.0"
+    },
+    {
+      "fixture_id": "P1E2-HELD-DOCX-01",
+      "relative_path": "documents/held_out_minimal_fullstack.docx",
+      "sha256": "ce5c84b4e46c731dbeceea3580de0e7cebe874254304725c99030aa5b9f92b8a",
+      "document_type": "docx",
+      "digital_text_required": true,
+      "layout_family": "standard_paragraphs",
+      "page_count": 1,
+      "split": "held_out",
+      "ground_truth_relative_path": "ground_truth/held_out_minimal_fullstack.json",
+      "synthetic_provenance": "Synthetic minimal full-stack resume with fictional candidate David Chen.",
+      "coverage_tags": [
+        "docx_paragraphs",
+        "missing_optional_sections",
+        "year_only_dates",
+        "multiple_employment"
+      ],
+      "fixture_version": "1.0"
+    }
+  ]
+}
